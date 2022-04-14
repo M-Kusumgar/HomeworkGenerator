@@ -1,0 +1,17 @@
+ 
+  <body>
+    <div mathjax>
+      <p>
+        {{latex}}
+      </p>
+      </div>
+      <div>
+        <table>
+          <tbody>
+            <tr *ngFor="let input of inputs">
+              <td>{{input}} = <input type="number"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </body>
